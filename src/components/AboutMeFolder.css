@@ -1,0 +1,22 @@
+.flexible-modal {
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.flexible-modal-drag-area {
+  background: rgba(22, 22, 333, 0.2);
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: move;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  z-index: 1000;
+}
