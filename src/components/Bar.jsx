@@ -7,6 +7,7 @@ import {
   ListItem,
   Divider,
   Cutout,
+  Tooltip,
 } from 'react95';
 import wave from '../images/wave.png';
 

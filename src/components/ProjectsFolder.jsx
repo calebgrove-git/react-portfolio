@@ -9,8 +9,9 @@ import {
 } from 'react95';
 import './ProjectsFolder.css';
 import ReactModal from 'react-modal-resizable-draggable';
-import synth from '../images/synth.png';
+import squish from '../images/squish1.jpg';
 import peer from '../images/peers.png';
+import noteful from '../images/noteful1.jpg';
 export default function ProjectsFolder(props) {
   return (
     <ReactModal
@@ -62,30 +63,48 @@ export default function ProjectsFolder(props) {
             overflow: 'scroll',
           }}
         >
-          <h2 style={{ fontSize: '20px' }}>Sythesis</h2>
-          <p>
-            - A web app that lets you speak verbally with a bot in realtime -
-          </p>
-          <img
-            src={synth}
-            alt='synthesis screenshot'
-            style={{ width: '100%' }}
-          />
-          <p>
-            {' '}
-            Live App:
-            <Anchor href='https://sythesis-fc547.web.app/' target='_blank'>
-              Sythesis
-            </Anchor>
-          </p>
+          <h2 style={{ fontSize: '20px' }}>This Portfolio</h2>
           <p>
             {' '}
             GitHub Repo:
             <Anchor
-              href='https://github.com/calebgrove-git/synthesis'
+              href='https://github.com/calebgrove-git/react-portfolio'
               target='_blank'
             >
-              Peer
+              Portfolio Repository
+            </Anchor>
+          </p>
+          <hr />
+          <h2 style={{ fontSize: '20px' }}>Squish</h2>
+          <p>- A web app for creating, tracking, and marking bugs complete -</p>
+          <img src={squish} alt='squish screenshot' style={{ width: '100%' }} />
+          <p>
+            {' '}
+            Live App:
+            <Anchor
+              href='https://bug-tracker-qdwfzsjlb.vercel.app/'
+              target='_blank'
+            >
+              Squish
+            </Anchor>
+          </p>
+          <p>
+            {' '}
+            GitHub Front-End Repo:
+            <Anchor
+              href='https://github.com/calebgrove-git/bug-tracker'
+              target='_blank'
+            >
+              Squish Repository
+            </Anchor>
+          </p>
+          <p>
+            GitHub Server Repo:
+            <Anchor
+              href='https://github.com/calebgrove-git/bug-tracker-api'
+              target='_blank'
+            >
+              Squish Server
             </Anchor>
           </p>
           <hr />
@@ -112,6 +131,41 @@ export default function ProjectsFolder(props) {
               target='_blank'
             >
               Peer Repository
+            </Anchor>
+          </p>
+          <hr />
+          <h2 style={{ fontSize: '20px' }}>Noteful</h2>
+          <p>- A web app for storing notes -</p>
+          <img
+            src={noteful}
+            alt='noteful screenshot'
+            style={{ width: '100%' }}
+          />
+          <p>
+            {' '}
+            Live App:
+            <Anchor href='https://noteful-blush.vercel.app/' target='_blank'>
+              Noteful
+            </Anchor>
+          </p>
+          <p>
+            {' '}
+            GitHub Front-End Repo:
+            <Anchor
+              href='https://github.com/calebgrove-git/noteful'
+              target='_blank'
+            >
+              Noteful Repository
+            </Anchor>
+          </p>
+          <p>
+            {' '}
+            GitHub Server Repo:
+            <Anchor
+              href='https://github.com/calebgrove-git/noteful-api'
+              target='_blank'
+            >
+              Noteful Server Repository
             </Anchor>
           </p>
           <hr />

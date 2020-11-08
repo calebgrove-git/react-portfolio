@@ -15,7 +15,7 @@ export default function Projects(props) {
         }}
         onClick={() => {
           window.open(
-            'https://www.linkedin.com/in/caleb-g-4a7040168/',
+            'https://www.linkedin.com/in/caleb-grove-4a7040168/',
             '_blank'
           );
         }}

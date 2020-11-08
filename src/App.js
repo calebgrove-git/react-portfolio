@@ -15,6 +15,7 @@ import GitHub from './components/GitHub';
 import LinkedIn from './components/LinkedIn';
 import Email from './components/Email';
 import ContactForm from './components/ContactForm';
+import Resume from './components/Resume';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -92,6 +93,7 @@ function App() {
             isOpen={contactFormOpen}
             removeFromOpen={manageRemoveOpen}
           />
+          <Resume />
         </div>
       </ThemeProvider>
     </div>
