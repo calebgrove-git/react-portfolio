@@ -12,6 +12,7 @@ import ReactModal from 'react-modal-resizable-draggable';
 import squish from '../images/squish1.jpg';
 import peer from '../images/peers.png';
 import noteful from '../images/noteful1.jpg';
+import rsvp from '../images/rsvp.png';
 export default function ProjectsFolder(props) {
   return (
     <ReactModal
@@ -166,6 +167,39 @@ export default function ProjectsFolder(props) {
               target='_blank'
             >
               Noteful Server Repository
+            </Anchor>
+          </p>
+          <hr />
+          <h2 style={{ fontSize: '20px' }}>RSVP</h2>
+          <p>
+            - A web app for managing calendar events, invites, and contacts -
+          </p>
+          <img src={rsvp} alt='noteful screenshot' style={{ width: '100%' }} />
+          <p>
+            {' '}
+            Live App:
+            <Anchor href='https://rsvp-cal.herokuapp.com' target='_blank'>
+              RSVP
+            </Anchor>
+          </p>
+          <p>
+            {' '}
+            GitHub Front-End Repo:
+            <Anchor
+              href='https://github.com/calebgrove-git/rsvp-client'
+              target='_blank'
+            >
+              RSVP Repository
+            </Anchor>
+          </p>
+          <p>
+            {' '}
+            GitHub Server Repo:
+            <Anchor
+              href='https://github.com/calebgrove-git/rsvpbackend'
+              target='_blank'
+            >
+              RSVP Server Repository
             </Anchor>
           </p>
           <hr />
